@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="description" content="Prototype de City Builder" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Prototype - City Builder</title>
+  <!-- Lien vers la feuille de style -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Barre de navigation simple -->
+  <header>
+    <h1>Ma Ville</h1>
+    <div id="game-info">
+      <p>Population : <span id="population">0</span></p>
+      <p>Budget : <span id="budget">0</span> $</p>
+      <p>Popularité : <span id="popularity">50</span>%</p>
+    </div>
+    <button id="collect-taxes">Collecter les Impôts</button>
+    <button id="construction-mode">Construction / Démolition</button>
+  </header>
+
+  <!-- Zone principale du jeu -->
+  <main>
+    <div id="map-container">
+      <!-- La grille de la carte sera générée en JavaScript -->
+    </div>
+    <div id="console">
+      <h2>Console de jeu</h2>
+      <p id="console-log">Bienvenue !</p>
+    </div>
+  </main>
+
+  <!-- Script JS principal -->
+  <script src="script.js"></script>
+</body>
+</html>
